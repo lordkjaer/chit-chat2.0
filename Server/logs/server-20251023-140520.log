@@ -1,0 +1,8 @@
+2025/10/23 14:05:20.773163 [Server] Server listening on :50051
+2025/10/23 14:05:49.006646 [Server] [EVENT=Join] [ClientID=Bob] [Lamport=1] client connected
+2025/10/23 14:05:58.206615 [Server] [EVENT=Broadcast] [ClientID=Bob] [Lamport=4] type=CHAT text="Hello everyone!"
+2025/10/23 14:06:28.293518 [Server] [EVENT=Broadcast] [ClientID=Bob] [Lamport=7] type=CHAT text="Alright, bye!"
+2025/10/23 14:06:29.913415 [Server] [EVENT=Leave] [ClientID=Bob] [Lamport=8] client disconnected
+2025/10/23 14:09:53.469878 [Server] [EVENT=Join] [ClientID=Alice] [Lamport=9] client connected
+2025/10/23 14:10:09.607057 [Server] [EVENT=Broadcast] [ClientID=Alice] [Lamport=12] type=CHAT text="Hello!"
+2025/10/23 14:45:16.374203 [Server] [EVENT=Leave] [ClientID=Alice] [Lamport=13] client disconnected

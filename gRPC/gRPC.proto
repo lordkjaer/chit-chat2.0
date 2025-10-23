@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package chitchat;
+
+option go_package = "github.com/VictorTroelsen/Chit-Chat/gRPC;chitchat";
+
+service ChatService {
+	rpc SendMessage (ChatMessage) returns (ChatResponse);
+	rpc StreamMessages (StreamRequest) returns (stream ChatMessage);
+}
+
+enum MessageType {
+    CHAT = 0;
+    JOIN = 1;
+    LEAVE = 2;
+}
+
+message ChatMessage {
+    string user = 1;
+    string message = 2; //Max 128 chars
+    int64 logical_time = 3;
+    MessageType type = 4;
+}
+
+message ChatResponse {
+	bool success = 1;
+	string error = 2;
+}
+
+message StreamRequest {
+	string room = 1;
+}

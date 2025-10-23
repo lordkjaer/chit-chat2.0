@@ -1,0 +1,4 @@
+2025/10/23 14:09:53.469321 [Client] [User=Alice] [EVENT=Start] [Lamport=0] connected to localhost:50051
+2025/10/23 14:09:53.470407 [Client] [User=Alice] [EVENT=Receive] [Lamport=10] type=JOIN from=Alice text="Participant Alice joined Chit Chat at logical time 9"
+2025/10/23 14:10:09.607057 [Client] [User=Alice] [EVENT=Receive] [Lamport=13] type=CHAT from=Alice text="Hello!"
+2025/10/23 14:10:09.620541 [Client] [User=Alice] [EVENT=Send] [Lamport=11] text="Hello!"
