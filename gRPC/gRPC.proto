@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package chitchat;
 
-option go_package = "github.com/VictorTroelsen/Chit-Chat/gRPC;chitchat";
+option go_package = "github.com/lordkjaer/chit-chat2.0/gRPC;";
 
 service ChatService {
 	rpc SendMessage (ChatMessage) returns (ChatResponse);

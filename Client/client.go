@@ -14,7 +14,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	pb "github.com/VictorTroelsen/Chit-Chat/gRPC"
+	pb "github.com/lordkjaer/chit-chat2.0/gRPC"
 	"google.golang.org/grpc"
 )
 

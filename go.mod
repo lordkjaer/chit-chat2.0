@@ -1,4 +1,4 @@
-module github.com/VictorTroelsen/Chit-Chat
+module github.com/lordkjaer/chit-chat2.0
 
 go 1.25.0
 
