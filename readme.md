@@ -17,9 +17,10 @@ As an example:
 Each client connect to the same server.
 
 4. Typing messages
-Once both clients are running type a message in one terminal and press "Enter".
-The message will now appear for all clients with a Lamport timestamp.
-All clients will also be able to see which person joins the chit chat room as well as which person leaves the chit chat room.
+- Once both clients are running type a message in one terminal and press "Enter".
+- The message will now appear for all clients with a Lamport timestamp.
+- All clients will also be able to see which person joins the chit chat room as well as which person leaves the chit chat room.
 
 5. Stopping processes
-To stop any process be it either the server or the clients press Ctrl + C.
+- To stop any process be it either the server or the clients press Ctrl + C.
+
