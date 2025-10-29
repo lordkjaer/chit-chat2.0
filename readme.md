@@ -24,3 +24,4 @@ Each client connect to the same server.
 5. Stopping processes
 - To stop any process be it either the server or the clients press Ctrl + C.
 
+System logs are generated for both server and each client and can be found under their respective folders.

@@ -1,0 +1,11 @@
+2025/10/29 12:32:38.340344 [Client] [User=Ib] [EVENT=Start] [Lamport=0] connected to localhost:50051
+2025/10/29 12:32:38.341425 [Client] [User=Ib] [EVENT=Receive] [Lamport=3] type=JOIN from=Ib text="Participant Ib joined Chit Chat at logical time 2"
+2025/10/29 12:33:13.316037 [Client] [User=Ib] [EVENT=Receive] [Lamport=6] type=CHAT from=Bob text="Hello"
+2025/10/29 12:33:30.908752 [Client] [User=Ib] [EVENT=Receive] [Lamport=9] type=CHAT from=Ib text="Happy Halloween"
+2025/10/29 12:33:30.909422 [Client] [User=Ib] [EVENT=Send] [Lamport=7] text="Happy Halloween"
+2025/10/29 12:33:41.721616 [Client] [User=Ib] [EVENT=Receive] [Lamport=12] type=CHAT from=Bob text="Goodbye"
+2025/10/29 12:33:43.287372 [Client] [User=Ib] [EVENT=Receive] [Lamport=13] type=LEAVE from=Bob text="Participant Bob left Chit Chat at logical time 12"
+2025/10/29 12:33:49.283121 [Client] [User=Ib] [EVENT=Receive] [Lamport=16] type=CHAT from=Ib text="Goodbye"
+2025/10/29 12:33:49.283121 [Client] [User=Ib] [EVENT=Send] [Lamport=14] text="Goodbye"
+2025/10/29 12:33:50.911894 [Client] [User=Ib] [EVENT=Shutdown] [Lamport=16] stream closed: rpc error: code = Canceled desc = context canceled
+2025/10/29 12:33:50.911894 [Client] [User=Ib] [EVENT=Shutdown] [Lamport=16] stdin closed; exiting
